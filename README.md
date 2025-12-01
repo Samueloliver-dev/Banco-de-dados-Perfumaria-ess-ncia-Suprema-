@@ -1,27 +1,21 @@
-Perfumaria Essência Suprema – Banco de Dados SQL
+# Perfumaria Essência Suprema – Banco de Dados SQL
 
-Projeto de SQL prático que simula o gerenciamento de uma perfumaria. Inclui criação de tabelas, relacionamentos, inserção de dados, consultas avançadas e manipulação com UPDATE/DELETE. Ideal para treinar bancos de dados relacionais e comandos DML/DDL em um cenário realista.
+Projeto de SQL prático simulando o gerenciamento de uma perfumaria.  
+Inclui criação de tabelas, inserção de dados, consultas SELECT, UPDATE e DELETE.
 
-Funcionalidades e Objetivos do Projeto
+## Estrutura do Repositório
+- `perfumaria.sql` → Contém todos os comandos SQL:
+  - Criação do banco e tabelas
+  - Inserção de dados (INSERT)
+  - Consultas (SELECT)
+  - Atualizações (UPDATE)
+  - Exclusões (DELETE)
 
-Criação de tabelas para Clientes, Produtos, Categorias, Vendas e Itens de Venda, incluindo relacionamentos e restrições.
+## Instruções de Execução
+1. Abra MySQL Workbench, pgAdmin ou outro editor SQL.
+2. Execute o arquivo `perfumaria.sql` para criar o banco e inserir os dados.
+3. Teste as consultas e comandos de manipulação de dados diretamente.
 
-Inserção de dados coerentes com o modelo lógico utilizando INSERT.
-
-Consultas avançadas com SELECT, aplicando WHERE, JOIN, ORDER BY e LIMIT.
-
-Atualização e exclusão de dados com UPDATE e DELETE, garantindo integridade referencial.
-
-Estrutura preparada para experimentação com queries de relatório de vendas, estoque e clientes.
-
-Público-Alvo
-
-Estudantes e profissionais iniciantes em SQL e bancos de dados relacionais.
-
-Quem deseja treinar comandos DML e DDL em um cenário prático.
-
-Tecnologias
-
-MySQL (Workbench) ou PostgreSQL (pgAdmin)
-
-SQL padrão (DDL e DML)
+## Objetivo
+- Praticar comandos DDL e DML do SQL.
+- Treinar criação de tabelas, relacionamento entre tabelas, manipulação de dados e consultas avançadas.
